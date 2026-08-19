@@ -15,5 +15,6 @@ silver_df = (
    .dropna(subset=["customer_id"]) 
 
 ) 
+print("this is my silver ")
 
 display(silver_df) 
